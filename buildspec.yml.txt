@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Nothing to build. Moving files to the artifact directory..."
+      - echo "Debugging file structure:"
+      - ls -R
+
+artifacts:
+  files:
+    - '**/*'
